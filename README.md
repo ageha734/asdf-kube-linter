@@ -26,7 +26,12 @@ Plugin:
 ```shell
 asdf plugin add kube-linter
 # or
-asdf plugin add kube-linter https://github.com/devlincashman/asdf-kube-linter.git
+asdf plugin add kube-linter https://github.com/ageha734/asdf-kube-linter.git
+```
+
+```bash
+mise plugin remove kube-linter
+mise plugin add kube-linter https://github.com/ageha734/asdf-kubefedctl
 ```
 
 kube-linter:
